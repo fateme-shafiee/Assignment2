@@ -3,8 +3,8 @@ PrimaryPassword = 'shafiee78'
 AttemptCounter = 0 
 
 for i in range (3):
-    username = input ('please enter your Username ; ')
-    password = input ('please enter your Password ; ')
+    username = input ('please enter your Username  : ')
+    password = input ('please enter your Password :')
     if (PrimaryUsername == username) and (PrimaryPassword == password):
         print ('welcom :)')
         break
